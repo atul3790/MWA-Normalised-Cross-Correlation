@@ -1,5 +1,7 @@
-# MWA-Normalised-Cross-Correlation
-This workflow will help generate normalised cross correlation (NCC) dynamic spectrum (DS) using short baselines in MWA Phase I and Phase II data. The user can choose the baselines from a selected list.
+# MWA-uncalibrated-solar-dynamic-spectrum
+This workflow will help generate normalised cross correlation (NCC) dynamic spectrum (DS) using short baselines in MWA Phase I and Phase II data. The idea is that since the Sun is unresolved in these baselines, the NCC values should reflect the total solar disk-integrated flux variability. The user can choose the baselines from a selected list mentioned in ```Make_normCC_DS.py```.
+baseline_list=['LBA1MWA-LBA2MWA','LBA2MWA-LBA3MWA','LBA7MWA-LBA8MWA','LBA6MWA-LBA7MWA','LBB2MWA-LBB4MWA','LBA8MWA-Tile165MWA','Tile166MWA-Tile167MWA','Tile101MWA-Tile102MWA','Tile105MWA-Tile106MWA','Tile123MWA-Tile124MWA'] # Give name without spaces. 
+**Note**: MWA Tiles (or antenna elements) with the name starting with 'LB' should be omitted if one is using Phase I data. Please check your Measurement set before choosing the baselines. In anycase, code will not crash if some wrong antennas are mentioned in the list.  
 
 There are 3 codes in this workflow.
 

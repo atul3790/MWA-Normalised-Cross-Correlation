@@ -1,7 +1,7 @@
 # MWA-Normalised-Cross-Correlation
 This workflow will help generate normalised cross correlation (NCC) dynamic spectrum (DS) using short baselines in MWA Phase I and Phase II data. The user can choose the baselines from a selected list.
 
-There are 3 codes in this workflow.
+There are 3 codes in this workflow.\\
 
 1. Make_normCC_DS.py.
    Input: Provide the list of short baselines, a folder with all the MWA measurement sets (MSs) belonging to the Picket fence/harmonic/continuous observation under study. Ensure that all MSs for the observation window are stored in a single folder. Provide a location for DS files to be saved.

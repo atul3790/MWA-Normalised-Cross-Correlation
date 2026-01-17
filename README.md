@@ -11,13 +11,13 @@ There are 3 codes in this workflow.
 
    *Note:* DS will be made for XX, YY, XY, YX, and STOKES I.
 
-2. '''organise_DS_in1place.py'''
+2. ```organise_DS_in1place.py```
 
    **Input:** Provide the location where DS pickle files are stored, which is the same as the input location in the earlier code. Mention the choice of polarisation in `stokes' keyword (XX, YY, XY, YX, or I) and a folder location where to save all mean NCC DS files for chosen polarization after processing.
 
    **Task:** The code will grab the baseline-averaged NCC pickle files for every MS from the respective subfolders within the main DS file location (This directory tree will already be created by Make_normCC_DS.py). This code will identify the mean NCC DS in the requested STOKES parameter and will store the files at the user-specified location under a standard nomenclature recognised by the next code.
 
-3. '''make_collageDS.py'''
+3. ```make_collageDS.py```
 
    **Input:** Location where all mean DS are stored by the earlier code.
 

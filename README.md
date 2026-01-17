@@ -3,7 +3,7 @@ This workflow will help generate normalised cross correlation (NCC) dynamic spec
 
 There are 3 codes in this workflow.
 
-1. '''Make_normCC_DS.py'''
+1. ```Make_normCC_DS.py```
    
    **Input:** Provide the list of short baselines, a folder with all the MWA measurement sets (MSs) belonging to the Picket fence/harmonic/continuous observation under study. Ensure that all MSs for the observation window are stored in a single folder. Provide a location for DS files to be saved.
 
